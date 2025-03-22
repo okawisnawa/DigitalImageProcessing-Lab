@@ -1,1 +1,5 @@
-print('Hello World')
+print("Hello World")
+name = input("What's your name?")
+print("Welcome to the Digital Image Processing Lab, {}".format(name))
+age = int(input("How old are you?"))
+print("So, you're {}, and you about {} years old".format(name,age))
